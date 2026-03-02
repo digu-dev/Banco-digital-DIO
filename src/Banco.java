@@ -4,6 +4,7 @@ public class Banco {
 
 	private String nome;
 	private List<Conta> contas;
+	private List<Cliente> clientes
 
 	public String getNome() {
 		return nome;
@@ -21,4 +22,6 @@ public class Banco {
 		this.contas = contas;
 	}
 
+	public List<Cliente> getCliente(){
+	}
 }
